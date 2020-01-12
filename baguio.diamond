@@ -1,0 +1,18 @@
+public class Diamond{
+    public static void main(String[] args) {
+        
+        int void=3;
+        for(int y=1; y<=7; y++){
+            for(int x=1; x<=7; x++){
+                if(x>((x+1)/2)){
+                    
+                    System.out.print("t ");
+                    
+                }else if (x==((x+1)/2)){
+                    System.out.print("* ");
+                }
+            }
+            System.out.println(" ");
+        }
+    }
+}
